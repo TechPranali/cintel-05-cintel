@@ -88,27 +88,27 @@ ui.page_opts(title="PyShiny: Live Data Example", fillable=True)
 # Everything in the sidebar is indented consistently
 with ui.sidebar(open="open"):
 
-    ui.h2("Kansas City Weather", class_="text-center")
+    ui.h2("Maryville MO Weather", class_="text-center")
     ui.p(
-        "A demonstration of real-time temperature readings in the Kansas City Metro Area.",
+        "A demonstration of real-time temperature readings in the Maryville MO Area.",
         class_="text-center",
     )
     ui.hr()
     ui.h6("Links:")
     ui.a(
         "GitHub Source",
-        href="https://github.com/JBtallgrass/cintel-05-cintel/blob/main/Mod05/app.py",
+        href="https://github.com/TechPranali/cintel-05-cintel/blob/main/app.py",
         target="_blank",
     )
     ui.a(
         "GitHub App",
-        href="https://jbtallgrass.github.io/cintel-05-cintel/",
+        href="https://github.com/TechPranali/cintel-05-cintel",
         target="_blank",
     )
        # In Shiny Express, everything not in the sidebar is in the main panel
 
 with ui.layout_columns():
-    with ui.h2("Kansas City Weather: Live data simulation"):
+    with ui.h2("Maryville MO Weather: Live data simulation"):
         @render_widget  
         def map(width="50%", height="50%"):
             return Map(center=(39.0997, -94.5786), zoom=10,)
