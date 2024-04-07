@@ -97,7 +97,7 @@ with ui.sidebar(open="open"):
     ui.h6("Links:")
     ui.a(
         "GitHub Source",
-        href="https://github.com/TechPranali/cintel-05-cintel/blob/main/app.py",
+        href="https://github.com/TechPranali/cintel-05-cintel/blob/main/Mod05/app.py",
         target="_blank",
     )
     ui.a(
