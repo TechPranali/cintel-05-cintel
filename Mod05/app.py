@@ -81,7 +81,7 @@ def reactive_calc_combined():
 # Call the ui.page_opts() function
 # Set title to a string in quotes that will appear at the top
 # Set fillable to True to use the whole page width for the UI
-ui.page_opts(title="PyShiny: Live Data Example", fillable=True)
+ui.page_opts(title="Pranali: Live Data Example", fillable=True)
 
 # Sidebar is typically used for user interaction/information
 # Note the with statement to create the sidebar followed by a colon
@@ -90,7 +90,7 @@ with ui.sidebar(open="open"):
 
     ui.h2("Maryville MO Weather", class_="text-center")
     ui.p(
-        "A demonstration of real-time temperature readings in the Maryville MO Area.",
+        "Real-time temperature readings in the Maryville MO Area.",
         class_="text-center",
     )
     ui.hr()
